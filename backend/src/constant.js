@@ -1,1 +1,1 @@
- export const DB_NAME = "Scratchify"
+ export const DB_NAME = ""
