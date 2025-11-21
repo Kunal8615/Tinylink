@@ -1,5 +1,0 @@
-# Environment Files
-*.env
-.env
-frontend/.env
-backend/.env
