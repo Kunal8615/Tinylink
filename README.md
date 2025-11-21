@@ -8,7 +8,6 @@ Additionally, it supports Google OAuth login for easy authentication.
 ##  Features
 
 - 🔗 Create short URLs
-- 👤 Google OAuth Login
 - 📊 Track clicks and usage analytics
 - 📁 Separate Frontend & Backend
 - 🔒 Environment variables for secure configuration
