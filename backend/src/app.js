@@ -16,6 +16,11 @@ app.use(express.json());
 app.use("/api/links", linkRoutes);
 app.use("/healthz", healthRoutes);
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the demo API! Use the available routes to interact with the platform.");
+});
+
+
 app.get("/:code", async (req, res) => {
   try {
     const code = req.params.code;
